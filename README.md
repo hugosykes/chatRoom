@@ -12,3 +12,14 @@ Node, Express
 
 Zombie, Mocha and Chai for testing and nyc/istanbul for coverage
 
+I shall use websockets to allow for constant updating of the page to accommodate instant updates on incoming messages.
+
+### In order to run program locally
+
+In terminal run:
+
+`npm install`
+
+`npm start`
+
+and visit **localhost:3000**
