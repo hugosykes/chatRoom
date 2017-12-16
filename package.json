@@ -2,9 +2,20 @@
   "name": "chatroom",
   "version": "1.0.0",
   "description": "Basic chatroom using websockets and responsive design",
-  "main": "index.js",
+  "main": "index.js",  
+  "private": true,
   "scripts": {
+    "start": "node ./bin/www",
     "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
   },
   "repository": {
     "type": "git",
