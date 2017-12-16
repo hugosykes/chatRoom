@@ -1,0 +1,19 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Basic chatroom using websockets and responsive design",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugosykes/chatRoom.git"
+  },
+  "author": "hugosykes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugosykes/chatRoom/issues"
+  },
+  "homepage": "https://github.com/hugosykes/chatRoom#readme"
+}
