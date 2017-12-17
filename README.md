@@ -10,7 +10,7 @@ Essentially my plan is to build a clone of the online version of Slack.
 
 Node, Express
 
-Zombie, Mocha and Chai for testing and nyc/istanbul for coverage
+Zombie, Mocha and Chai for testing and nyc for coverage
 
 I shall use websockets to allow for constant updating of the page to accommodate instant updates on incoming messages.
 
@@ -23,3 +23,6 @@ In terminal run:
 `npm start`
 
 and visit **localhost:3000**
+
+
+### Design
