@@ -13,17 +13,23 @@ describe('Users', function() {
 
   describe("Signing up", function() {
     it('expects to see Sign up', function() {
-      expect(browser.html('body')).to.contain('<form');
+      expect(browser.html('#sign-up-form')).to.contain('<form');
+      expect(browser.html('#sign-up-form')).to.contain('Sign up');
     });
 
-    // it('expects to see username field', function() {
-    //   expect(browser.html('body')).to.contain('<input');
-    //   expect(browser.html('#username')).to.contain('Username:');
-    // });
+    it('expects to see username field', function() {
+      expect(browser.html('#sign-up-form')).to.contain('<input');
+      expect(browser.html('#sign-up-form')).to.contain('Username:');
+    });
 
-    // it('expects to see Sign up', function() {
-    //   expect(browser.html('body')).to.contain('<form');
-    // });
+    it('expects to see password and password confirmation fields', function() {
+      expect(browser.html('#sign-up-form')).to.contain('Password:');
+      expect(browser.html('#sign-up-form')).to.contain('Password confirmation:');
+    });
+
+    it('expects to see submit button', function() {
+      expect(browser.html('#sign-up-form')).to.contain('Sign me up!');
+    });
   });
 
   after(function(done) {
